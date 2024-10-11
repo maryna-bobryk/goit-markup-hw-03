@@ -71,8 +71,6 @@ h6 {
 .header {
   background-color: #fff;
   border-bottom: 1px solid #e7e9fc;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
 }
 
 .header-container {
@@ -116,8 +114,8 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-link:hover,
@@ -243,8 +241,6 @@ h6 {
 .team-list-desc {
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
   text-align: center;
 }
 
@@ -284,9 +280,7 @@ h6 {
 }
 
 .portfolio-list-desc {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   border-bottom: 1px solid;
   border-left: 1px solid;
   border-right: 1px solid;
@@ -318,10 +312,6 @@ h6 {
   padding-bottom: 100px;
 }
 
-.logo-footer {
-  margin-bottom: 16px;
-}
-
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -330,6 +320,8 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-accent {
